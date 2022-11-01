@@ -28,8 +28,8 @@ public class TennisCoach implements Coach {
             @Value("${default.sports}") String sports) {
         System.out.println("Inside parametrized constructor");
         this.fortuneService = fortuneService;
-        this.email = email;
-        this.sports = sports;
+//        this.email = email;
+//        this.sports = sports;
     }
 
 //
